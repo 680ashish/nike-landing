@@ -1,0 +1,83 @@
+.container {
+    /* width: 100px; */
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 7rem;
+    /* height: 200px; */
+    background: #f0f0f070;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-top: 3.5rem;
+
+}
+.container img{
+    /* width: 60%; */
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* transition: transform .2s; */
+    transition: 0.3s linear;
+}
+.container img:hover{
+    /* transform: scale(1.1); */
+    border: 1px solid white;
+}
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 600px;
+    padding-left: 60px;
+    margin-top: 1rem;
+}
+.content h3{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.content h3 span{
+    color: var(--red);
+}
+.content p{
+    width: 90%;
+    /* display: flex; */
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /* border: 1px solid green; */
+
+}
+
+.bulletPoints{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100px ;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+}
+.whyList{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+.whyList div{
+    font-size: 20px;
+    width: 30rem;
+    height: 2px;
+    border: 50%;
+    border: 1px solid red;
+    background: red;
+}

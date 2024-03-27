@@ -1,0 +1,108 @@
+section{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  padding: 2rem 4rem;  
+  /* height: auto; */
+  margin-top: auto;
+  /* bottom: 0; */
+
+}
+
+section .home-img img{
+  width: 28rem;
+  position: relative;
+  right: 0;
+
+}
+.content h2{
+  font-weight: 800;
+  line-height: 1;
+  font-size: 5rem;
+}
+.content p{
+  /* margin-top: 10px;
+  display: flex;
+  width: 65%;
+  font-size: 0.9rem;
+  color: rgb(97, 97, 97);
+  font-weight: 600; */
+  font-weight: 600;
+  color: #505050;
+  max-width: 400px;
+  font-size: 12px;
+
+}
+.btns{
+  display: flex;
+  gap: 30px;
+  margin-top: 1.2rem;
+}
+.btns button{
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s linear;
+
+}
+.btns button:nth-child(2){
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray
+}
+.btns button:nth-child(2):hover{
+  background: transparent;
+  color: red;
+  border-color: red;
+}
+.btns button:hover{
+  background-color: red;
+}
+
+.shopping{
+  margin-top: 10px;
+}
+.shopping p {
+  font-size: 12px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #303030;
+  font-size: 12px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+.brand-icons img{
+  width: 25px;
+  height: 25px;
+}
+.brand-icons:hover{
+  cursor: pointer;
+}
+
+
+
+  
+  /* dark mode  */
+  
+  
+  
+  /* Light mode styles */
+  .navbar-light {
+    background-color: #f0f0f0; /* Light mode background color */
+    color: #333; /* Light mode text color */
+  }
+  
+  /* Dark mode styles */
+  .navbar-dark {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  

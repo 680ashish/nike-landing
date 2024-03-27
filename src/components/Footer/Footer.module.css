@@ -1,0 +1,179 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+.footer {
+  --header-height: 3.5rem;
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(220, 68%, 54%);
+  --first-color-lighten: hsl(220, 68%, 97%);
+  --title-color: hsl(220, 48%, 28%);
+  --text-color: hsl(220, 12%, 45%);
+  --body-color: hsl(220, 100%, 99%);
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'DM Sans', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+  /*========== Font weight ==========*/
+  --font-thin: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  /*========== width & height ==========*/
+  --main-navbar-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    --normal-font-size: .9rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  }
+}
+
+
+.footer .madeby{
+    text-align: center;
+    padding-bottom: 16px;
+    margin-top: 10px;
+}
+footer {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+
+}
+
+.footer {
+  width: 100%;
+  background: #10182F;
+  margin-bottom: 0;
+}
+/* .footerCol{
+  border: 1px solid red;
+
+} */
+.footer .footerRow {
+  max-width: var(--main-navbar-width);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2.7rem 3rem;
+}
+
+.footerRow .footerCol .footerColHeading {
+  color: #fff;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.footerCol .footerColListParent {
+  margin-top: 20px;
+  display: flex;
+  /* border: 1px solid red;
+  justify-content: left;
+  text-align: left; */
+
+  flex-direction: column;
+  justify-content: left;
+  /* border: 1px solid red; */
+  align-items: flex-start;
+}
+
+.footerCol .footerColListParent .footerColLists {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footerCol .footerColListParent .footerColLists .footerColLinks {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  color: #bfbfbf;
+}
+
+.footerCol .footerColListParent .footerColLists .footerColLinks:hover {
+  color: #fff;
+}
+
+.footerCol p {
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+
+.footerCol form {
+  display: flex;
+  gap: 5px;
+}
+
+.footerCol input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footerCol input::placeholder {
+  color: #ccc;
+}
+
+ .footerCol form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footerCol form button:hover {
+  background: #cecccc;
+}
+
+.footerCol .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footerCol .icons i {
+  color: #afb6c7;
+}
+
+.footerCol .icons i:hover  {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer .footerRow {
+    padding: 2rem 1.5rem;
+  }
+
+  .footerCol form {
+    display: block;
+  }
+
+  .footerCol form :where(input, button) {
+    width: 100%;
+  }
+
+  .footerCol form button {
+    margin: 10px 0 0 0;
+  }
+}
