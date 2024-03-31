@@ -1,7 +1,7 @@
 // import Darkmode from "./Darkmode";
 import './navbar.css';
 
-import { FaRegMoon } from "react-icons/fa";
+// import { FaRegMoon } from "react-icons/fa";
 // import '../App.css';
 const Navbar = ({handleLoginp}) =>{
       
@@ -22,7 +22,7 @@ const Navbar = ({handleLoginp}) =>{
                 {/* <Darkmode/> */}
                 <div>
                     <button className="darkmode-btn">
-                    <FaRegMoon />
+                    {/* <FaRegMoon /> */}
                     </button>
                 </div>
                 <div className="login-btn">
