@@ -112,6 +112,8 @@ strong {
   color: #CACACA;
   text-decoration: none;
   font-weight: 700;
+  cursor: pointer;
+
 }
 .shoe-details-right .product-tabs li a:hover, .shoe-details-right .product-tabs li a:focus {
   color: #FF3F2A;
@@ -148,6 +150,7 @@ strong {
 .shoe-details-right .sizes li a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .shoe-details-right .colours {
   margin: 20px 0 60px;
@@ -166,6 +169,7 @@ strong {
   width: 20px;
   height: 20px;
   display: inline-block;
+  cursor: pointer;
 }
 .shoe-details-right .blue {
   background: #00D3EF;
@@ -193,11 +197,16 @@ strong {
 .shoe-details-right a.btn-primary {
   background: #00D3EF;
   margin-right: 20px;
+  cursor: pointer;
+
 }
 .shoe-details-right a.btn-primary:hover {
   background: #0ae2ff;
-}
 
+}
+.shoe-details-right a.btn-secondary{
+  cursor: pointer;
+}
 .close-button {
   position: absolute;
   right: -20px;
