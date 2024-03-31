@@ -52,18 +52,18 @@ const ShoeDetails = ({ shoeContent, reset }) => {
           </div>
           <h2>Size</h2>
           <ul className={styles.sizes}>
-            <li><a href="#">07</a></li>
-            <li><a href="#">08</a></li>
-            <li className={styles.active}><a href="#">09</a></li>
-            <li><a href="#">10</a></li>
-            <li><a href="#">11</a></li>
+            <li><a href="07">07</a></li>
+            <li><a href="8">08</a></li>
+            <li className={styles.active}><a href="09">09</a></li>
+            <li><a href="10">10</a></li>
+            <li><a href="11">11</a></li>
           </ul>
           <h2>Colour</h2>
           <ul className={styles.colours}>
             <li className={styles.active}><a href="#"><span className={`${styles.circle} ${styles.blue}`}></span></a></li>
-            <li><a href="#"><span className={`${styles.circle} ${styles.orange}`}></span></a></li>
-            <li><a href="#"><span className={`${styles.circle} ${styles.yellow}`}></span></a></li>
-            <li><a href="#"><span className={`${styles.circle} ${styles.black}`}></span></a></li>
+            <li><a href="orange"><span className={`${styles.circle} ${styles.orange}`}></span></a></li>
+            <li><a href="yellow"><span className={`${styles.circle} ${styles.yellow}`}></span></a></li>
+            <li><a href="black"><span className={`${styles.circle} ${styles.black}`}></span></a></li>
           </ul>
           <button className={`${styles.btn} ${styles['btn-primary']}`}>Add to Cart</button>
           <button className={`${styles.btn} ${styles['btn-secondary']}`}>Wishlist</button>
