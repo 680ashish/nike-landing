@@ -19,8 +19,8 @@ const Container = () => {
                     <div className="shopping">
                         <p>Also Available On</p>
                         <div className="brand-icons">
-                            <a href="https://www.amazon.in/" target='_blank' rel="noopener"><img src="/amazon.png" alt="amazon-logo" /></a>
-                            <a href="https://www.flipkart.com/" target='_blank' rel="noopener"><img src="/flipkart.png" alt="amazon-logo" /></a>
+                            <a href="https://www.amazon.in/" target='_blank' rel="noreferrer"><img src="/amazon.png" alt="amazon-logo" /></a>
+                            <a href="https://www.flipkart.com/" target='_blank' rel="noreferrer"><img src="/flipkart.png" alt="amazon-logo" /></a>
                         </div>
                     </div>
                 </div>
