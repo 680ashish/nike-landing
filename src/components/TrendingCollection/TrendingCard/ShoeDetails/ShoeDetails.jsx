@@ -60,7 +60,7 @@ const ShoeDetails = ({ shoeContent, reset }) => {
           </ul>
           <h2>Colour</h2>
           <ul className={styles.colours}>
-            <li className={styles.active}><a href="#"><span className={`${styles.circle} ${styles.blue}`}></span></a></li>
+            <li className={styles.active}><a href="blue"><span className={`${styles.circle} ${styles.blue}`}></span></a></li>
             <li><a href="orange"><span className={`${styles.circle} ${styles.orange}`}></span></a></li>
             <li><a href="yellow"><span className={`${styles.circle} ${styles.yellow}`}></span></a></li>
             <li><a href="black"><span className={`${styles.circle} ${styles.black}`}></span></a></li>
