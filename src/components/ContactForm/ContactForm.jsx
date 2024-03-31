@@ -49,7 +49,7 @@ function ContactForm() {
         </div>
         
         <div className={style.contact_image}>
-        <img src="/contact.svg" alt="contact image" />
+        <img src="/contact.svg" alt="contact logo" />
         </div>
     </section>
   )

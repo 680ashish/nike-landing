@@ -8,35 +8,35 @@ const Footer = () => {
         <div className={`${style.footerCol}`}>
           <h4 className={`${style.footerColHeading}`}>Info</h4>
           <ul className={`${style.footerColListParent}`}>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">About Us</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Compressions</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Customers</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Service</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Collection</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/about">About Us</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/compressions">Compressions</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/customers">Customers</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/service">Service</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/collection">Collection</a></li>
           </ul>
         </div>
 
         <div className={`${style.footerCol}`}>
           <h4 className={`${style.footerColHeading}`}>Explore</h4>
           <ul className={`${style.footerColListParent}`}>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Free Designs</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Latest Designs</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Themes</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Popular Designs</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Art Skills</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">New Uploads</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/free-designs">Free Designs</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/latest-designs">Latest Designs</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/themes">Themes</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/popular-designs">Popular Designs</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/art-skills">Art Skills</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/new-uploads">New Uploads</a></li>
           </ul>
         </div>
 
         <div className={`${style.footerCol}`}>
           <h4 className={`${style.footerColHeading}`}>Legal</h4>
           <ul className={`${style.footerColListParent}`}>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Customer Agreement</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Privacy Policy</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">GDPR</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Security</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Testimonials</a></li>
-            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="#">Media Kit</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/customer-agreement">Customer Agreement</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/privacy-policy">Privacy Policy</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/gdpr">GDPR</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/security">Security</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/testimonials">Testimonials</a></li>
+            <li className={`${style.footerColLists}`}><a className={`${style.footerColLinks}`} href="/media-kit">Media Kit</a></li>
           </ul>
         </div>
 
