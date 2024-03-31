@@ -38,9 +38,9 @@ const ShoeDetails = ({ shoeContent, reset }) => {
           </div>
           <ul className={styles['product-tabs']}>
             <li className={styles.active}><a href="#pane1" onClick={handleDescriptionClick}>Description</a></li>
-            <li><a>Details</a></li>
-            <li><a>Reviews</a></li>
-            <li><a>Size & Fit</a></li>
+            <li><a href="#pane2">Details</a></li>
+            <li><a href="#pane3">Reviews</a></li>
+            <li><a href="#pane4">Size & Fit</a></li>
           </ul>
           <div className={styles['tab-content']}>
             <div id="pane1" className={`${styles.tabPane} ${styles.active}`}>
@@ -52,21 +52,21 @@ const ShoeDetails = ({ shoeContent, reset }) => {
           </div>
           <h2>Size</h2>
           <ul className={styles.sizes}>
-            <li><a>07</a></li>
-            <li><a>08</a></li>
-            <li className={styles.active}><a>09</a></li>
-            <li><a>10</a></li>
-            <li><a>11</a></li>
+            <li><a href="07">07</a></li>
+            <li><a href="8">08</a></li>
+            <li className={styles.active}><a href="09">09</a></li>
+            <li><a href="10">10</a></li>
+            <li><a href="11">11</a></li>
           </ul>
           <h2>Colour</h2>
           <ul className={styles.colours}>
             <li className={styles.active}><a href="blue"><span className={`${styles.circle} ${styles.blue}`}></span></a></li>
-            <li><a><span className={`${styles.circle} ${styles.orange}`}></span></a></li>
-            <li><a><span className={`${styles.circle} ${styles.yellow}`}></span></a></li>
-            <li><a><span className={`${styles.circle} ${styles.black}`}></span></a></li>
+            <li><a href="orange"><span className={`${styles.circle} ${styles.orange}`}></span></a></li>
+            <li><a href="yellow"><span className={`${styles.circle} ${styles.yellow}`}></span></a></li>
+            <li><a href="black"><span className={`${styles.circle} ${styles.black}`}></span></a></li>
           </ul>
-          <a className={`${styles.btn} ${styles['btn-primary']}`}>Add to Cart</a>
-          <a className={`${styles.btn} ${styles['btn-secondary']}`}>Wishlist</a>
+          <a href="/" className={`${styles.btn} ${styles['btn-primary']}`}>Add to Cart</a>
+          <a href="/" className={`${styles.btn} ${styles['btn-secondary']}`}>Wishlist</a>
         </div>
 
         <div className={styles['close-button']} onClick={reset}>&times;</div>
