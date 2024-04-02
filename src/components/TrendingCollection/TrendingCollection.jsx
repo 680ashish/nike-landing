@@ -43,7 +43,7 @@ const TrendingCollection = () => {
           <ShoeDetails shoeContent={shoeContent} reset={resetContent} />
         ) : (
           shoes.map(shoe => (
-            <TrendingCard key={shoe.shoeNum} num={shoe.shoeNum} name={shoe.shoeName} showContent={showContent} />
+            <TrendingCard key={shoe.shoeNum} num={shoe.shoeNum} name={shoe.shoeName} showContent={showContent} className={`${style.containerItem}`} />
           ))
         )}
       </div>

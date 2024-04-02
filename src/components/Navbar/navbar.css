@@ -20,7 +20,27 @@ nav{
   backdrop-filter: blur(10px);
   /* margin: 0 20px; */
   /* margin-top: 5px; */
+  /* margin-right: 300px; */
   z-index: 9999;
+}
+.navItems{
+  margin-left: auto;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+.midMenuItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 100%;
+
+}
+.rightMenuItems{
+  display: flex;
+  /* border: 1px solid blue; */
+
 }
 .logo{
   margin-top: 10px;
@@ -51,14 +71,7 @@ nav ul li:hover{
   background: #d8d8d88f;
 }
 
-.darkmode{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* border: 1px solid red; */
-  /* width: 50px; */
-  
-}
+
 .darkmode-btn{
   /* border: 1px solid black; */
   margin-right: 15px;
@@ -100,6 +113,42 @@ nav ul li:hover{
   cursor: pointer;
 
 }
+
+/* navbar toggle */
+.navbarToggle{
+  cursor: pointer;
+  font-size:3rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbarToggle:hover{
+  background: #d8d8d88f;
+}
+/* .hide{
+  display: none;
+} */
+
+/* mobile responsive */
+@media (max-width: 768px){
+  .logo img{
+    width: 60px;
+  }
+  .navItems{
   
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    position: relative;
+  }
+  .midMenuItems{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
   
-  
+  /* .hide{
+    display: none;
+  } */
+}

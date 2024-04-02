@@ -4,7 +4,7 @@ import { GrCart } from "react-icons/gr";
 import { IoIosHeartEmpty } from "react-icons/io";
 const TrendingCard = ({ num, name, showContent }) => {
   return (
-    <div className={`${style.trending_container}`} onDoubleClick={() => showContent(num)}> 
+    <div className={`${style.trending_container}`} onClick={() => showContent(num)}> 
       <div className={` ${style.trending_icons}`}>
         <IoIosHeartEmpty />
         <GrCart />

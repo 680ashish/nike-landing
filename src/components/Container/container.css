@@ -106,3 +106,43 @@ section .home-img img{
     color: #fff; /* Dark mode text color */
   }
   
+
+
+  
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 768px){
+  section{
+    padding: 0.5rem 1rem;
+    /* border: 1px solid red; */
+  }
+  .content h2{
+    font-size: 3.5rem;
+  }
+  .content p{
+    font-size: 8px;
+  }
+  .btns{
+    gap: 15px;
+  }
+  .btns button{
+    font-size: 8px;
+
+  }
+  .brand-icons{
+    gap: 10px;
+  }
+  .brand-icons img{
+    width: 20px;
+    height: 20px;
+  }
+  section .home-img img{
+    width: 24rem;
+    /* border: 1px solid blue; */
+
+  }
+  .homeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

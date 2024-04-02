@@ -5,9 +5,11 @@ const ContactHeader = () => {
   return (
     <>
     <div className={`container ${style.contact_section}`}>
-        <h1>CONTACT US</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit doloribus at exercitationem commodi numquam eligendi tempore quaerat totam nobis ratione nesciunt, amet labore omnis iusto et vel illo. Perspiciatis, minus?
-        </p>
+        <div>
+          <h1>CONTACT US</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit doloribus at exercitationem commodi numquam eligendi tempore quaerat totam nobis ratione nesciunt, amet labore omnis iusto et vel illo. Perspiciatis, minus?
+          </p>
+        </div>
         <ContactForm/>
     </div>
     </>

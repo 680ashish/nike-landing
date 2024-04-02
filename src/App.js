@@ -40,15 +40,6 @@ function App() {
 
     </div>
 
-    {/* <Container/> 
-    <Latest/>
-    <TrendingCollection/>
-    <WhyNike/>
-    <Testimonial/>
-    <ContactHeader/>
-    <Footer/> */}
-
-    {/* <Login/> */}
     </>
   );
 }

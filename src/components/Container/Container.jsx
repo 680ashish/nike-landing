@@ -3,7 +3,7 @@ import './container.css';
 const Container = () => {
     return (
         <>
-            <section className="mode container">
+            <section className="mode container homeSection">
                 <div className="content">
                     <h2>
                         YOUR FEET <br /> DESERVE <br />THE BEST

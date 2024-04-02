@@ -81,3 +81,39 @@
     border: 1px solid red;
     background: red;
 }
+
+
+
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .container img{
+        height: 20rem;
+        width: 14rem;
+        display: none;
+    }
+
+    .container{
+        /* border: 1px solid red; */
+        height: 680px;
+        margin-top: 4rem;
+        width: 100%;
+        padding: 1rem 1rem;
+
+        
+    }
+    .content{
+     width: 100%; 
+     padding-left: 20px;  
+    }
+    .content h3{
+        font-size: 2.4rem;
+        line-height: 40px;
+        width: 100%;
+    }
+    .content p{
+        width: 90%;
+    }
+    .whyList div{
+        width: 20rem;
+    }
+}
