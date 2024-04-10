@@ -14,18 +14,24 @@ import Login from './components/LoginSection/Login';
 // import { ProductPage } from './components/ProductPage/ProductPage';
 
 function App() {
+  
   const [login,setLogin]= useState(false);
   function handleLoginp(){
-    console.log("login handled");
     setLogin(!login);
 
   }
+
+  const [isLogin,setIsLogin]= useState(false);
+
+  const toggleLogin= () =>{
+      setIsLogin(!isLogin);
+  }
   return (
     <>
-    <Navbar handleLoginp={handleLoginp}/>
+    <Navbar handleLoginp={handleLoginp} isLogin={isLogin}  toggleLogin={toggleLogin} />
     <div>
       {
-        login?<Login handleLoginp={handleLoginp}/>
+        login && !isLogin ?<Login handleLoginp={handleLoginp}  toggleLogin={toggleLogin} isLogin={isLogin}/>
         :
         <>
         <Container />

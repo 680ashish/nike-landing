@@ -5,11 +5,11 @@ import './navbar.css';
 import { CgMenuRightAlt } from "react-icons/cg";
 import { useState } from 'react';
 // import '../App.css';
-const Navbar = ({handleLoginp}) =>{
+const Navbar = ({handleLoginp,isLogin}) =>{
     const [isOpen,setIsOpen]=useState(false);
 
-    const toggleMenu = () =>{
-        
+
+    const toggleMenu = () =>{   
         setIsOpen(!isOpen);     
     }
       
@@ -41,7 +41,11 @@ const Navbar = ({handleLoginp}) =>{
                     </div>
 
                     <div className="login-btn hide">
-                        <button id='loginBtn' onClick={handleLoginp}>Login</button>        
+                        <button id='loginBtn' onClick={handleLoginp} >
+                            {
+                                isLogin?'LogOut':'Login'
+                            }
+                        </button>        
                     </div>
 
                 </div>
